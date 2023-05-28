@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "GreeceKino"
 include ':app'
+include ':model'
+include ':network'
+include ':domain'
+include ':data'

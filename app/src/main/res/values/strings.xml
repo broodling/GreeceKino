@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">GreeceKino</string>
+    <string name="talon">Talon</string>
+    <string name="live_drawings">Uzivo Izvlacenje</string>
+    <string name="results">Rezultati</string>
+    <string name="game_details_placeholder">Vreme izvlacenja: %s | Kolo: %s</string>
+    <string name="remaining_numbers_to_select">Broj izabranih brojeva: %d. Preostalo brojeva: %d"</string>
+    <string name="max_number_you_can_choose">Maksimalni broj brojeva koji mozete izabrati je 8</string>
+    <string name="time_of_draft">Vreme izvlacenja</string>
+    <string name="remaining_time">Preostalo za uplatu</string>
 </resources>
