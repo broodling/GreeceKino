@@ -6,8 +6,7 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.onStart
 
-abstract class BaseUseCase<P: BaseParams, T> {
-
+abstract class BaseUseCase<P : BaseParams, T> {
 
     fun fromServer(
         apiCode: String? = null,

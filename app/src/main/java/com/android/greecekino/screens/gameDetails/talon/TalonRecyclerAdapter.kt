@@ -19,6 +19,7 @@ class TalonRecyclerAdapter(
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView
+
         init {
             textView = view.findViewById(R.id.text_number)
         }
@@ -64,7 +65,6 @@ class TalonRecyclerAdapter(
         when {
             selectedNumbers.contains(selectedItem) -> selectedNumbers.remove(selectedItem)
 
-            // Th
             selectedNumbers.size >= 8 -> onListChangeListener.onNumbersLimitReached()
             else -> selectedNumbers.add(selectedItem)
         }
